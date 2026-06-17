@@ -3,11 +3,10 @@ import * as controller from '../controllers/xtream.controller';
 
 const router = Router();
 
-// Main player_api endpoint – action based
+// Main player_api endpoint
 router.get('/player_api.php', (req, res) => {
     const action = req.query.action;
     if (!action) {
-        // Default: authentication
         return controller.authenticateUser(req, res);
     }
 
@@ -20,19 +19,22 @@ router.get('/player_api.php', (req, res) => {
             return controller.getVodCategories(req, res);
         case 'get_vod_streams':
             return controller.getVodStreams(req, res);
+        case 'get_vod_info':
+            return controller.getVodInfo(req, res);
         case 'get_series_categories':
             return controller.getSeriesCategories(req, res);
         case 'get_series':
             return controller.getSeries(req, res);
+        case 'get_series_info':
+            return controller.getSeriesInfo(req, res);
         default:
-            // Unrecognized action – treat as auth
             return controller.authenticateUser(req, res);
     }
 });
 
-// Direct stream redirects
+// Streaming URLs
 router.get('/live/:username/:password/:streamId.ts', controller.redirectLiveStream);
-router.get('/movie/:username/:password/:streamId.mp4', controller.redirectMovie);
-router.get('/series/:username/:password/:seriesId.mp4', controller.redirectSeries);
+router.get('/movie/:username/:password/:streamId.:ext', controller.redirectMovie);
+router.get('/series/:username/:password/:episodeId.:ext', controller.redirectSeries);
 
 export default router;

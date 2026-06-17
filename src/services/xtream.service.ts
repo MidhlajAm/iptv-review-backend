@@ -1,11 +1,11 @@
-import * as users from '../data/users.json';
-import * as liveCategories from '../data/live_categories.json';
-import * as liveStreams from '../data/live_streams.json';
-import * as vodCategories from '../data/vod_categories.json';
-import * as vodStreams from '../data/vod_streams.json';
-import * as seriesCategories from '../data/series_categories.json';
-import * as series from '../data/series.json';
-import * as seriesInfoData from '../data/series_info.json';
+import users from '../data/users.json';
+import liveCategories from '../data/live_categories.json';
+import liveStreams from '../data/live_streams.json';
+import vodCategories from '../data/vod_categories.json';
+import vodStreams from '../data/vod_streams.json';
+import seriesCategories from '../data/series_categories.json';
+import series from '../data/series.json';
+import seriesInfoData from '../data/series_info.json';
 
 // Types
 interface UserRecord {
@@ -29,6 +29,10 @@ interface Stream {
     license?: string;
     container_extension?: string;
     info?: any;
+    num?: string;
+    stream_type?: string;
+    tv_archive?: string;
+    direct_source?: string;
 }
 
 interface SeriesEntry {
@@ -131,11 +135,24 @@ export function getVodStreams(categoryId?: string): Stream[] {
     return vodStreamsData.filter(s => s.category_id === categoryId);
 }
 
+/**
+ * VOD Info – returns info and movie_data exactly as the app expects.
+ */
 export function getVodInfo(vodId: number): { info: any; movie_data: any } | null {
     const stream = vodStreamsData.find(s => s.stream_id === vodId);
     if (!stream) return null;
-    const { info, ...movieData } = stream;
-    return { info: info || {}, movie_data: movieData };
+
+    const movie_data = {
+        stream_id: String(stream.stream_id),
+        name: stream.name,
+        container_extension: stream.container_extension || 'mp4',
+        stream_url: stream.stream_url || ''
+    };
+
+    return {
+        info: stream.info || {},
+        movie_data
+    };
 }
 
 export function getSeriesCategories(): Category[] {

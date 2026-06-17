@@ -1,29 +1,41 @@
 [
   {
-    "stream_id": 1001,
+    "num": "1",
     "name": "Demo News",
+    "stream_type": "live",
+    "stream_id": 1001,
     "stream_icon": "https://placehold.co/300x300",
     "category_id": "1",
-    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "tv_archive": "0",
+    "direct_source": "",
+    "stream_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "fallback_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "license": "CC0 (Public Domain)"
   },
   {
-    "stream_id": 1002,
+    "num": "2",
     "name": "Demo Sports",
+    "stream_type": "live",
+    "stream_id": 1002,
     "stream_icon": "https://placehold.co/300x300",
     "category_id": "2",
-    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "tv_archive": "0",
+    "direct_source": "",
+    "stream_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "fallback_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "license": "CC0 (Public Domain)"
   },
   {
-    "stream_id": 1003,
+    "num": "3",
     "name": "Demo Entertainment",
+    "stream_type": "live",
+    "stream_id": 1003,
     "stream_icon": "https://placehold.co/300x300",
     "category_id": "3",
-    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "tv_archive": "0",
+    "direct_source": "",
+    "stream_url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+    "fallback_url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "license": "CC0 (Public Domain)"
   }
 ]

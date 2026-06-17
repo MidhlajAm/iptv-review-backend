@@ -2,11 +2,11 @@
   {
     "stream_id": 2001,
     "name": "Big Buck Bunny",
-    "stream_icon": "https://placehold.co/300x450",
+    "stream_icon": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg",
     "category_id": "10",
     "container_extension": "mp4",
-    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "stream_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+    "fallback_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
     "license": "CC0 (Public Domain)",
     "info": {
       "plot": "A giant rabbit faces a group of bullying rodents.",
@@ -40,11 +40,11 @@
   {
     "stream_id": 2003,
     "name": "Sintel",
-    "stream_icon": "https://placehold.co/300x450",
+    "stream_icon": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg",
     "category_id": "10",
     "container_extension": "mp4",
-    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "stream_url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4",
+    "fallback_url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4",
     "license": "CC0 (Public Domain)",
     "info": {
       "plot": "A girl searches for a lost dragon.",
