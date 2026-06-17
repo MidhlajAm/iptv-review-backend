@@ -4,6 +4,11 @@
     "status": "Active",
     "max_connections": "50"
   },
+  "Bob123": {
+    "password": "Bobpass123",
+    "status": "Active",
+    "max_connections": "50"
+  },
   "expired": {
     "password": "expired",
     "status": "Expired",

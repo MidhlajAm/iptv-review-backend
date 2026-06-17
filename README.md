@@ -9,8 +9,8 @@ It serves a small set of demo live channels, movies, and series using public dom
 
 | Field      | Value    |
 |------------|----------|
-| **Username** | `review` |
-| **Password** | `review` |
+| **Username** | `Bob123` |
+| **Password** | `Bobpass123` |
 | **Status**   | Active (max 1 connection) |
 
 ---
