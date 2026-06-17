@@ -1,0 +1,59 @@
+[
+  {
+    "stream_id": 2001,
+    "name": "Big Buck Bunny",
+    "stream_icon": "https://placehold.co/300x450",
+    "category_id": "10",
+    "container_extension": "mp4",
+    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "license": "CC0 (Public Domain)",
+    "info": {
+      "plot": "A giant rabbit faces a group of bullying rodents.",
+      "cast": "Big Buck Bunny",
+      "director": "Sacha Goedegebure",
+      "genre": "Animation, Comedy",
+      "releaseDate": "2008-05-30",
+      "rating": "7.0",
+      "youtube_trailer": "YE7VzlLtp-4"
+    }
+  },
+  {
+    "stream_id": 2002,
+    "name": "Elephants Dream",
+    "stream_icon": "https://placehold.co/300x450",
+    "category_id": "10",
+    "container_extension": "mp4",
+    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "license": "CC0 (Public Domain)",
+    "info": {
+      "plot": "Two men explore a strange machine.",
+      "cast": "Cas Jansen",
+      "director": "Bassam Kurdali",
+      "genre": "Sci-Fi, Animation",
+      "releaseDate": "2006-05-18",
+      "rating": "6.8",
+      "youtube_trailer": "TLkA0RELQ1g"
+    }
+  },
+  {
+    "stream_id": 2003,
+    "name": "Sintel",
+    "stream_icon": "https://placehold.co/300x450",
+    "category_id": "10",
+    "container_extension": "mp4",
+    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "license": "CC0 (Public Domain)",
+    "info": {
+      "plot": "A girl searches for a lost dragon.",
+      "cast": "Halina Reijn",
+      "director": "Colin Levy",
+      "genre": "Fantasy, Animation",
+      "releaseDate": "2010-09-27",
+      "rating": "7.4",
+      "youtube_trailer": "eRsGyueVLvQ"
+    }
+  }
+]

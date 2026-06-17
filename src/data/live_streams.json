@@ -1,0 +1,29 @@
+[
+  {
+    "stream_id": 1001,
+    "name": "Demo News",
+    "stream_icon": "https://placehold.co/300x300",
+    "category_id": "1",
+    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "license": "CC0 (Public Domain)"
+  },
+  {
+    "stream_id": 1002,
+    "name": "Demo Sports",
+    "stream_icon": "https://placehold.co/300x300",
+    "category_id": "2",
+    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "license": "CC0 (Public Domain)"
+  },
+  {
+    "stream_id": 1003,
+    "name": "Demo Entertainment",
+    "stream_icon": "https://placehold.co/300x300",
+    "category_id": "3",
+    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "license": "CC0 (Public Domain)"
+  }
+]

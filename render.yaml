@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: iptv-review-backend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: PORT
+        value: 10000
+      - key: APP_URL
+        value: https://iptv-demo-loader.onrender.com

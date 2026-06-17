@@ -1,0 +1,17 @@
+{
+  "review": {
+    "password": "review",
+    "status": "Active",
+    "max_connections": "50"
+  },
+  "expired": {
+    "password": "expired",
+    "status": "Expired",
+    "max_connections": "1"
+  },
+  "disabled": {
+    "password": "disabled",
+    "status": "Disabled",
+    "max_connections": "1"
+  }
+}
