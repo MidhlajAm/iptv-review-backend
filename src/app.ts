@@ -3,7 +3,7 @@ import cors from 'cors';
 import xtreamRoutes from './routes/xtream.routes';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.POupdaye thumbnailRT || 3000;
 
 // CORS enabled for all origins (demo environment)
 app.use(cors());

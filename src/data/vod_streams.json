@@ -24,8 +24,8 @@
     "stream_icon": "https://placehold.co/300x450",
     "category_id": "10",
     "container_extension": "mp4",
-    "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "stream_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+    "fallback_url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4",
     "license": "CC0 (Public Domain)",
     "info": {
       "plot": "Two men explore a strange machine.",

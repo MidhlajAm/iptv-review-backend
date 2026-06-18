@@ -2,7 +2,7 @@
   "5001": {
     "info": {
       "name": "Sample Series",
-      "cover": "https://placehold.co/300x450",
+      "cover": "https://res.cloudinary.com/dezwll9jv/image/upload/v1781789836/Sample_Series_t16nqh.jpg",
       "plot": "A demo series for review purposes.",
       "cast": "Reviewer One, Reviewer Two",
       "director": "Google Play",
@@ -10,7 +10,9 @@
       "releaseDate": "2026-01-01",
       "rating": "5.0",
       "rating_5based": 5.0,
-      "backdrop_path": ["https://placehold.co/600x400"],
+      "backdrop_path": [
+        "https://res.cloudinary.com/dezwll9jv/image/upload/v1781789836/Sample_Series_t16nqh.jpg"
+      ],
       "youtube_trailer": "dQw4w9WgXcQ",
       "license": "CC0 (Public Domain)"
     },
@@ -21,8 +23,8 @@
           "episode_num": "1",
           "title": "Pilot Episode",
           "container_extension": "mp4",
-          "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-          "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "stream_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "fallback_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "info": {
             "duration_secs": 1800,
             "plot": "The beginning of the demo story."
@@ -33,8 +35,8 @@
           "episode_num": "2",
           "title": "Second Chapter",
           "container_extension": "mp4",
-          "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-          "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "stream_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "fallback_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "info": {
             "duration_secs": 1900,
             "plot": "The story continues."
@@ -47,8 +49,8 @@
           "episode_num": "1",
           "title": "Season 2 Premiere",
           "container_extension": "mkv",
-          "stream_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "fallback_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "stream_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "fallback_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "info": {
             "duration_secs": 2100,
             "plot": "A new season begins."
