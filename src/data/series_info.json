@@ -19,6 +19,18 @@
     "episodes": {
       "1": [
         {
+          "id": "10000",
+          "episode_num": "0",
+          "title": "zeroth Episode",
+          "container_extension": "mp4",
+          "stream_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "fallback_url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "info": {
+            "duration_secs": 1800,
+            "plot": "The beginning of the demo story."
+          }
+        },
+        {
           "id": "10001",
           "episode_num": "1",
           "title": "Pilot Episode",

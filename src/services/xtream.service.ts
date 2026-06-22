@@ -99,7 +99,7 @@ export function getUserInfo(username: string) {
         password: user.password,
         auth: 1,
         status: user.status,
-        exp_date: null,
+        exp_date: "2029-01-01",
         is_trial: "0",
         active_cons: "0",
         created_at: "2026-01-01"
